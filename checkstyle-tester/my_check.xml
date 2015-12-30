@@ -15,7 +15,9 @@
          <!-- <module name="NestedSwitchCheck"/> -->
          
          <!-- Example of checkstyle Check usage -->
-         <module name="AbstractClassName"/>
+	 <module name="LineLength">
+	     <property name="max" value="12000000"/>
+	 </module>
     </module>
 <!--
     <module name="SeverityMatchFilter">
